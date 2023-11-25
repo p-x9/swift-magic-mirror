@@ -14,6 +14,9 @@ public struct MagicMirror {
     /// A suggested display style for the reflected subject.
     public let displayStyle: DisplayStyle?
 
+    /// A Mirror object with the same children
+    public let mirror: Mirror
+
     internal let _makeSuperclassMirror: () -> MagicMirror?
 
     /// Creates a mirror that reflects on the given instance.
@@ -97,5 +100,8 @@ extension MagicMirror {
         }
 
         self.subjectType = subjectType
+
+        // Swift.Mirror
+        self.mirror = .init(subject, children: children)
     }
 }
