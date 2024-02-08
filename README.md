@@ -4,7 +4,7 @@ Implementation of `Mirror` not affected by `CustomReflectable`.
 
 <!-- # Badges -->
 
-[![Github issues](https://img.shields.io/github/issues/p-x9/c)](https://github.com/p-x9/swift-magic-mirror/issues)
+[![Github issues](https://img.shields.io/github/issues/p-x9/swift-magic-mirror)](https://github.com/p-x9/swift-magic-mirror/issues)
 [![Github forks](https://img.shields.io/github/forks/p-x9/swift-magic-mirror)](https://github.com/p-x9/swift-magic-mirror/network/members)
 [![Github stars](https://img.shields.io/github/stars/p-x9/swift-magic-mirror)](https://github.com/p-x9/swift-magic-mirror/stargazers)
 [![Github top language](https://img.shields.io/github/languages/top/p-x9/swift-magic-mirror)](https://github.com/p-x9/swift-magic-mirror/)
